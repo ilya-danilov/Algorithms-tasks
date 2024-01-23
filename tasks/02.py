@@ -1,6 +1,7 @@
 # Даны два числа a и b, представленные в виде строк.
 # Найдите произведение этих чисел и верните его в виде строки.
 
+
 NUM_SYS = 10
 
 def add_two_large_numbers(initial_number: str, number_to_add: str, dozen_shift: int) -> str:
@@ -85,4 +86,5 @@ def multiply_two_large_numbers(first_number: str, second_number: str) -> str:
     
     return f'-{resulting_number}' if is_negative else resulting_number
 
-# print(multiply_two_large_numbers('1234567890123456789012345678901234567890', '-9999999999999999999999999999999999999999'))
+
+# print(multiply_two_large_numbers('-1234567890123456789012345678901234567890', '9999999999999999999999999999999999999999'))
